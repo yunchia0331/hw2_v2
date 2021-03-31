@@ -123,29 +123,29 @@ int main()
 
 	for (h = 0; h < 10; h++) {
 		for (float i = 0.0f; i < 0.91f; i += 0.031f) {
-		aout = i;
-		//printf("aout = %f volts\n", aout.read() * 3.3f);
-		wait_us(T/100*1000000);
+			aout = i;
+			//printf("aout = %f volts\n", aout.read() * 3.3f);
+			wait_us(T/100*1000000);
 		}
 		for (float i = 0.0f; i < 0.91f; i += 0.031f) {
-		aout = i;
-		//printf("aout = %f volts\n", aout.read() * 3.3f);
-		wait_us(T/100*1000000);
+			aout = i;
+			//printf("aout = %f volts\n", aout.read() * 3.3f);
+			wait_us(T/100*1000000);
 		}
 	}
 
 	for (h = 0; h < 1; h++) {
 		for (float i = 0.0f; i < 0.91f; i += 0.031f) {
-		aout = i;
-		ADCdata[k++] = Ain;
-		//printf("aout = %f volts\n", aout.read() * 3.3f);
-		wait_us(T/100*1000000);
+			aout = i;
+			ADCdata[k++] = Ain;
+			//printf("aout = %f volts\n", aout.read() * 3.3f);
+			wait_us(T/100*1000000);
 		}
 		for (float i = 0.0f; i < 0.91f; i += 0.031f) {
-		aout = i;
-		ADCdata[k++] = Ain;
-		//printf("aout = %f volts\n", aout.read() * 3.3f);
-		wait_us(T/100*1000000);
+			aout = i;
+			ADCdata[k++] = Ain;
+			//printf("aout = %f volts\n", aout.read() * 3.3f);
+			wait_us(T/100*1000000);
 		}
 	}
 
