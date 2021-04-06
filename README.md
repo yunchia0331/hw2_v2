@@ -122,3 +122,7 @@ for x in range(0, int(100)):
 >ax[1].set_ylabel('|Y(freq)|')
 >plt.show()
 >s.close()
+* 結果
+>f=0.7時
+![image](https://user-images.githubusercontent.com/79571560/113743554-5f6ded80-9736-11eb-8ed7-2c59bb035a87.png)
+
